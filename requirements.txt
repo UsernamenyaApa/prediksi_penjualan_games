@@ -1,7 +1,9 @@
-streamlit
-pandas
-numpy
-seaborn
-scikit-learn
-matplotlib
-streamlit-option-menu
+streamlit==1.26.0
+pandas==1.5.3
+numpy==1.24.3
+seaborn==0.12.2
+scikit-learn==1.2.2
+matplotlib==3.7.1
+streamlit-option-menu==0.3.6
+base64==1.0.0
+pathlib==1.0.1
