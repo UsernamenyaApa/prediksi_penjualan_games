@@ -1,20 +1,12 @@
 import pickle
 import streamlit as st
 import pandas as pd
-import numpy as np
-import seaborn as sns
-from sklearn.model_selection import train_test_split, GridSearchCV
-from sklearn.linear_model import LinearRegression, Ridge, Lasso
-from sklearn.metrics import mean_squared_error, r2_score, silhouette_score, mean_absolute_error
 from sklearn.cluster import KMeans
 import matplotlib.pyplot as plt
 from sklearn.preprocessing import StandardScaler
 from sklearn.decomposition import PCA
-from sklearn.ensemble import RandomForestRegressor
-from sklearn.preprocessing import OneHotEncoder
 from streamlit_option_menu import option_menu
 import base64
-from pathlib import Path
 
 # Set page configuration
 st.set_page_config(page_title="Vizualize Dashboard", layout="wide")
